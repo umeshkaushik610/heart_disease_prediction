@@ -1,7 +1,7 @@
 import numpy as np
 import pickle
 
-loader_model = pickle.load(open('D:\ML\projects\heart_diseases\trained_model.sav','rb'))
+loader_model = pickle.load(open('D:\\ML\\projects\\heart_diseases\\trained_model.sav','rb'))
 
 input_data = (55,0,0,128,205,0,3,130,1,2,1,1,3)
 #change input data in numpy array

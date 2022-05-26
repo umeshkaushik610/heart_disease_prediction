@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loader_model = pickle.load(open('trained_model.sav','rb'))
+loader_model = pickle.load(open('D:\\ML\\projects\\heart_diseases\\trained_model.sav','rb'))
 ## creating a fucntion for prediction
 def heart_disease(input_data):
     #change input data in numpy array
